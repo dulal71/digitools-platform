@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const Navbar = () => {
     const [open,setOpen]=useState(false)
     return (
-        <div className='border-b border-gray-300'>
+        <div className='border-b border-gray-300  overflow-x-hidden'>
           <nav className='max-w-7xl mx-auto  flex justify-between items-center p-4'>
 
 <div>
@@ -31,7 +31,7 @@ const Navbar = () => {
     <div>
         {open?<X onClick={()=>setOpen(!open)}></X>  : <Menu onClick={()=>setOpen(!open)}></Menu> }
      </div>
-    <div className={ ` bg-white shadow-xl p-4 absolute top-18 duration-1000 ${open? 'right-2': '-right-40'}`}>
+    <div className={ `w-52 bg-white shadow-xl p-4 fixed top-18 right-0 transform transition-transform duration-1000 ${open? 'translate-x-0': 'translate-x-full'}`}>
         <ul className='flex flex-col items-center gap-5 font-bold'>
  <li className=' '><a href="/Products">Products</a></li>   
  <li><a href="/Features">Features</a></li>   
