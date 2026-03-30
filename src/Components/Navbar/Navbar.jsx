@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const Navbar = () => {
     const [open,setOpen]=useState(false)
     return (
-        <div className='border-b border-gray-300  overflow-x-hidden'>
+        <div className='border-b border-gray-300  overflow-x-hidden '>
           <nav className='max-w-7xl mx-auto  flex justify-between items-center p-4'>
 
 <div>

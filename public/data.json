@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create professional resumes quickly.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "FileText",
+    "image": "https://i.ibb.co.com/cdGnDrt/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced tools to build ATS-friendly resumes.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Custom sections",
+      "Export to PDF & DOCX"
+    ],
+    "icon": "Star",
+    "image": "https://i.ibb.co.com/xSPGMPMG/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Pack",
+    "description": "All-in-one solution for job seekers.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume + Cover Letter",
+      "LinkedIn optimization",
+      "Interview tips",
+      "Priority support"
+    ],
+
+    
+    "icon": "Rocket",
+    "image": "https://i.ibb.co.com/xSPGMPMG/operation.png"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Create stunning personal portfolios easily.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "20+ layouts",
+      "Custom domain support"
+    ],
+    "icon": "Layout",
+    "image": "https://i.ibb.co.com/WWmxX39C/social-media.png"
+  },
+  {
+    "id": 5,
+    "name": "Freelancer Toolkit",
+    "description": "Everything you need to manage freelance work.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Invoice generator",
+      "Proposal templates",
+      "Client tracking",
+      "Analytics dashboard"
+    ],
+    "icon": "Briefcase",
+    "image": "https://i.ibb.co.com/Q3PP8xX0/writing-2327400-1.png"
+  },
+  {
+    "id": 6,
+    "name": "AI Resume Writer",
+    "description": "Generate resumes instantly using AI.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI content generation",
+      "Keyword optimization",
+      "Multiple formats",
+      "Real-time suggestions"
+    ],
+    "icon": "Cpu",
+    "image": "https://i.ibb.co.com/xSPGMPMG/operation.png"
+  },
+  {
+    "id": 7,
+    "name": "Job Tracker",
+    "description": "Track all your job applications in one place.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Status updates",
+      "Interview reminders"
+    ],
+    "icon": "CheckCircle",
+    "image": "https://i.ibb.co.com/WWmxX39C/social-media.png"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Suite",
+    "description": "Complete package for career growth.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All premium features",
+      "1-on-1 career coaching",
+      "Unlimited downloads",
+      "Priority support"
+    ],
+    "icon": "Crown",
+    "image": "https://i.ibb.co.com/Q3PP8xX0/writing-2327400-1.png"
+  }
+]

@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className='max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 mt-20 p-4'>
             {/* left-content */}
-         <div className='space-y-8 '>
+         <div className='space-y-8 mx-auto '>
           <div className='max-w-72 flex items-center justify-center gap-1 bg-[#E1E7FF] rounded-full px-3 py-1 '>
          <img className='w-3 h-3' src={Group} alt="" />   
           <p className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>New: AI-Powered Tools Available</p> 
@@ -24,8 +24,8 @@ Explore Products
 </div>
             </div>   
           {/* right-content */}
-         <div>
-<img src={BannerImage} alt="banner-image" />
+         <div className='mx-auto'>
+<img className='animate-pulse'   src={BannerImage} alt="banner-image" />
          </div>
         </div>
     );
