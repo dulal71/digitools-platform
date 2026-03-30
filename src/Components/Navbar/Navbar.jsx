@@ -1,4 +1,4 @@
-import { Menu, ShoppingCart, X } from 'lucide-react';
+import { Bold, Menu, ShoppingCart, X } from 'lucide-react';
 import React, { useState } from 'react';
 
 const Navbar = () => {
@@ -29,10 +29,10 @@ const Navbar = () => {
 
 <div className='md:hidden flex'>
     <div>
-        {open?<X onClick={()=>setOpen(!open)}></X>  : <Menu onClick={()=>setOpen(!open)}></Menu> }
+        {open?<X onClick={()=>setOpen(!open)} size={30}></X>  : <Menu onClick={()=>setOpen(!open)} size={30} ></Menu> }
      </div>
-    <div className={ `w-52 bg-white shadow-xl p-4 fixed top-18 right-0 transform transition-transform duration-1000 ${open? 'translate-x-0': 'translate-x-full'}`}>
-        <ul className='flex flex-col items-center gap-5 font-bold'>
+    <div className={ ` mx-auto fixed bg-white shadow-xl p-6 transform transition-transform duration-1000 ease-out  right-0 left-0 w-80 ${open? 'translate-y-12 opacity-100 ': '-translate-y-100 '}`}>
+        <ul className='flex flex-col justify-start  gap-5 font-bold'>
  <li className=' '><a href="/Products">Products</a></li>   
  <li><a href="/Features">Features</a></li>   
  <li><a href="/Pricing">Pricing</a></li>   
