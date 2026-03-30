@@ -31,7 +31,7 @@ const Navbar = () => {
     <div>
         {open?<X onClick={()=>setOpen(!open)} size={30}></X>  : <Menu onClick={()=>setOpen(!open)} size={30} ></Menu> }
      </div>
-    <div className={ ` mx-auto fixed bg-white shadow-xl p-6 transform transition-transform duration-1000 ease-out  right-0 left-0 w-80 ${open? 'translate-y-12 opacity-100 ': '-translate-y-100 '}`}>
+    <div className={ ` mx-auto fixed bg-white shadow-xl p-6 transform transition-transform duration-1000 ease-out  right-0 left-0 w-80 ${open? 'translate-y-14 opacity-100 ': '-translate-y-100 '}`}>
         <ul className='flex flex-col justify-start  gap-5 font-bold'>
  <li className=' '><a href="/Products">Products</a></li>   
  <li><a href="/Features">Features</a></li>   
