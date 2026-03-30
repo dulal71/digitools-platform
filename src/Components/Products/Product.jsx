@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Features from './Features';
 
-const Product = ({card}) => {
+const Product = ({card,setSelected,selected}) => {
     console.log(card);
  const {name,description,
 features,image,period,price,tag} =card
+const [add,setAdd]=useState(false)
+const addCart=(product)=>{
+setSelected([...selected,product])
+setAdd(true)
+}
     return (
         <div className='space-y-4 border-1 border-gray-300 rounded-2xl  p-4 transition-transform duration-300 hover:scale-110'>
          <div className='flex justify-between items-center'>
@@ -24,7 +29,7 @@ features,image,period,price,tag} =card
          <div>
 {features.map((text ,index) => <Features key={index} text={text}></Features>)}
          </div>
-         <button className='w-full rounded-full py-2 bg-linear-to-r from-[#4F39F6] to-[#9514FA]  text-white'>Buy Now</button>
+         <button onClick={()=>addCart(card)} className={`w-full rounded-full py-2 text-white ${add ? 'bg-linear-to-r from-green-900 to-green-500':'bg-linear-to-r from-[#4F39F6] to-[#9514FA]  '} `}>{add?'Added to Cart':'Buy Now'} </button>
         </div>
     );
 };

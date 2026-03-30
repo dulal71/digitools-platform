@@ -1,10 +1,10 @@
 import { Bold, Menu, ShoppingCart, X } from 'lucide-react';
 import React, { useState } from 'react';
 
-const Navbar = () => {
+const Navbar = ({count}) => {
     const [open,setOpen]=useState(false)
     return (
-        <div className='border-b border-gray-300  overflow-x-hidden '>
+        <div className='border-b border-gray-300  overflow-x-hidden  '>
           <nav className='max-w-7xl mx-auto  flex justify-between items-center p-4'>
 
 <div>
@@ -22,8 +22,11 @@ const Navbar = () => {
 
 
 <div className='hidden md:flex items-center gap-5'>
-<ShoppingCart className='transform hover:scale-150 transition duration-300'></ShoppingCart>
-<span className= ' font-bold hover:text-[#4F39F6] transition'>Login</span>
+    <div className='relative transform hover:scale-150 transition duration-300'>
+ <span className='text-red-700 font-bold text-xl absolute right-0 -top-5  rounded-full  '>{count}</span>
+<ShoppingCart className=''></ShoppingCart>
+    </div>
+   <span className= ' font-bold hover:text-[#4F39F6] transition'>Login</span>
 <button className='btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'>Get Started</button>
 </div>
 
