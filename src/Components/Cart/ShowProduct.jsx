@@ -18,7 +18,7 @@ console.log(filterProduct);
          <img src={image} alt="product image" />   
         </div> 
           <div>
-          <h3 className='text-2xl font-bold'>{name}</h3>
+          <h3 className='text-sm md:text-2xl font-bold'>{name}</h3>
           <p  className='text-xl font-bold'>${price}</p> 
             </div>
           </div>
