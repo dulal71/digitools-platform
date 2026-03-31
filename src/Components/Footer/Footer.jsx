@@ -48,7 +48,7 @@ const Footer = () => {
 </ul>
             </div>   
             </div>    
-        <div className='max-w-7xl mx-auto flex justify-between items-center mt-5 border-t-2 border-gray-100 p-3'>
+        <div className='max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center mt-5 border-t-2 border-gray-100 p-3'>
          <div>
             <p className='text-gray-300 leading-7'>© 2026 Digitools. All rights reserved.</p>
             </div>   

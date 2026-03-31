@@ -53,6 +53,8 @@ From beginner-friendly resume kits to advanced AI-powered tools,everything is de
 👑 Enterprise — $99/month
 
 🔗 Live Demo
+ Link: digitools-platform-9n8r-git-main-dulal71s-projects.vercel.app
+
 
 🙌 Author
 Dulal Ahmed
