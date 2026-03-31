@@ -10,7 +10,7 @@ const Tools = ({getPromise,setCount}) => {
         <div className='max-w-7xl mx-auto mt-15'>
             <div className=''>
 <div className='text-center'>
-    <h2 className='text-4xl font-bold leading-tight tracking-tight bg-linear-to-r from-black to-gray-500 bg-clip-text text-transparent '>Premium Digital Tools</h2>
+    <h2 className='text-2xl  md:text-4xl font-bold leading-tight tracking-tight bg-linear-to-r from-black to-gray-500 bg-clip-text text-transparent '>Premium Digital Tools</h2>
 <p className='mt-3 text-zinc-500 font-semibold'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
 </div>
 <div className='flex justify-center mt-3'>
