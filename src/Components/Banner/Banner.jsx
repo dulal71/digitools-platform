@@ -1,6 +1,6 @@
 import React from 'react';
 import Group from '../../assets/products/Group 5.png'
-import Play from '../../assets/play.png'
+import Play from '../../assets/footerIcon/Play.png'
 import BannerImage from '../../assets/banner.png'
 const Banner = () => {
     return (
