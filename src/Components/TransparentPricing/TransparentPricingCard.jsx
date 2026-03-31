@@ -6,8 +6,8 @@ const TransparentPricingCard = ({card}) => {
   const {name,description,price,period,tag,buttonText,features
 } = card
     return (
-        <div className={`${tag==='most popular'? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]':'bg-base-200' } p-5 space-y-5 rounded-lg relative`}>
-        <div className='absolute -top-4 left-1/2 -translate-x-1/2 bg-amber-100 px-2 rounded-full'>{tag}</div>
+        <div className={`${tag==='most popular'? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA]':'bg-base-200' } p-5 space-y-5 rounded-lg relative shadow`}>
+        <div className='absolute -top-4 left-1/2 -translate-x-1/2 bg-amber-200 px-2 rounded-full'>{tag}</div>
          <div className='space-y-3'>
           <h3 className='font-bold text-2xl'>{name}</h3>  
           <p>{description}</p>

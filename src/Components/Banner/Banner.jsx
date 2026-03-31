@@ -11,8 +11,8 @@ const Banner = () => {
          <img className='w-3 h-3' src={Group} alt="" />   
           <p className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>New: AI-Powered Tools Available</p> 
             </div> 
-            <h1 className='text-2xl md:text-5xl font-bold leading-tight tracking-tight bg-linear-to-r from-black to-gray-500 bg-clip-text text-transparent'>Supercharge Your <br />
-            Digital Workflow</h1> 
+            <h1 className='text-2xl md:text-5xl font-bold leading-tight tracking-tight'> <span className='bg-linear-to-r from-black to-gray-500  bg-clip-text text-transparent '>Supercharge Your</span> <br />
+         <span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA]  bg-clip-text text-transparent '>Digital Workflow</span>   </h1> 
             <p className='leading-7 text-zinc-500 font-semibold'>Access premium AI tools, design assets, templates, and productivity <br />
 software—all in one place. Start creating faster today. <br />
 
@@ -24,7 +24,7 @@ Explore Products
 </div>
             </div>   
           {/* right-content */}
-         <div className='mx-auto'>
+         <div className='mx-auto shadow-2xl'>
 <img className='animate-pulse'   src={BannerImage} alt="banner-image" />
          </div>
         </div>

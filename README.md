@@ -1,16 +1,58 @@
-# React + Vite
+🚀 Digitools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Smart digital tools to boost your career and productivity.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+📖 Description:
 
-## React Compiler
+Digitools Platform is modern web application that provides a collection of powerful  digital tools to help users build resumes , manage freelance work,and grow their careers efficiently.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+From beginner-friendly resume kits to advanced AI-powered tools,everything is designed to save time and improve productivity.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🛠️ Technologies Used
+
+⚛️ React.js
+🎨 Tailwind CSS
+🔥 JavaScript (ES6+)
+🌐 JSON Data Handling
+💠 DaisyUI
+
+
+🌟 Features
+
+📄 Resume Tools
+
+1.Starter Resume Kit for beginners
+2.Pro Resume Builder with ATS optimization
+3.AI Resume Writer with smart suggestions
+
+
+
+💼 Career & Freelance Tools
+
+1.Freelancer Toolkit (invoice, proposal, tracking)
+
+2.Job Tracker for managing applications
+3.Portfolio Builder with custom layouts
+
+🚀 Advanced Features
+1.Career Boost Pack (Resume + LinkedIn + Interview tips)
+2.Ultimate Career Suite with premium access
+3.Multiple pricing plans
+
+⚙️ How It Works
+1️⃣ Create Account
+2️⃣ Choose Products
+3️⃣ Start Creating
+
+💰 Pricing Plans
+🟢 Basic — $9/month
+🔥 Pro — $29/month (Most Popular)
+👑 Enterprise — $99/month
+
+🔗 Live Demo
+
+🙌 Author
+Dulal Ahmed

@@ -15,7 +15,7 @@ const Tools = ({getPromise,setCount}) => {
 </div>
 <div className='flex justify-center mt-3'>
 {/* name of each tab group should be unique */}
-<div className="tabs tabs-box flex gap-5">
+<div className="tabs tabs-box bg-white shadow-sm rounded-full flex gap-5">
   <input onClick={()=>setOpen('Products')} type="radio" name="my_tabs_1" className={`tab ${open ==='Products'?'rounded-full px-12 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white':'text-gray-600'} `} aria-label="Products" defaultChecked />
   <input onClick={()=>setOpen('cart')} type="radio" name="my_tabs_1" className={`tab ${open==='cart' ?'rounded-full px-12 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white':'text-gray-600'} `} aria-label={`Cart (${selected.length})`} />
 </div>
