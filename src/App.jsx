@@ -8,14 +8,21 @@ import Tools from './Components/Tools/Tools'
 import { Divide } from 'lucide-react'
 import { ToastContainer } from 'react-toastify'
 import GetStartedSection from './Components/GetStartedSection/GetStartedSection'
+import TransparentPricing from './Components/TransparentPricing/TransparentPricing'
+import SmartWorkflowCTA from './Components/SmartWorkflowCTA/SmartWorkflowCTA'
+import Footer from './Components/Footer/Footer'
 const fetchPromise = async() =>{
     const res = await fetch('/data.json');
     return res.json();
 }
-
+const transparentPromise = async()=>{
+  const res=await fetch('/TransparentPricing.json')
+return res.json()
+}
 
 function App() {
 const getPromise = fetchPromise()
+const dataPromise = transparentPromise();
 const [count,setCount] =useState(0)
   return (
     <>
@@ -29,6 +36,13 @@ const [count,setCount] =useState(0)
 <Tools setCount={setCount} getPromise={getPromise}></Tools>
 </Suspense>
 <GetStartedSection></GetStartedSection>
+<Suspense fallback={<div className='text-center'>
+  <span className="loading loading-dots loading-xl"></span>
+</div>}>
+<TransparentPricing dataPromise={dataPromise} ></TransparentPricing>
+</Suspense>
+<SmartWorkflowCTA></SmartWorkflowCTA>
+<Footer></Footer>
 <ToastContainer
 position='top-center'
 autoClose={2000}></ToastContainer>

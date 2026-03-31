@@ -3,7 +3,7 @@ import React from 'react';
 
 const Features = ({text}) => {
     return (
-        <p className='flex gap-1 items-center text-zinc-500'><Check className='text-green-600'></Check>{text}</p>
+        <p className={`flex gap-1 items-center  text-black`}><Check className='text-green-600'></Check>{text}</p>
     );
 };
 
