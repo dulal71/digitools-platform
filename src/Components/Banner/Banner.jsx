@@ -13,7 +13,7 @@ const Banner = () => {
             </div> 
             <h1 className='text-2xl md:text-5xl font-bold leading-tight tracking-tight bg-linear-to-r from-black to-gray-500 bg-clip-text text-transparent'>Supercharge Your <br />
             Digital Workflow</h1> 
-            <p className='text-zinc-600 leading-7'>Access premium AI tools, design assets, templates, and productivity <br />
+            <p className='leading-7 text-zinc-500 font-semibold'>Access premium AI tools, design assets, templates, and productivity <br />
 software—all in one place. Start creating faster today. <br />
 
 Explore Products

@@ -7,10 +7,13 @@ import Navbar from './Components/Navbar/Navbar'
 import Tools from './Components/Tools/Tools'
 import { Divide } from 'lucide-react'
 import { ToastContainer } from 'react-toastify'
+import GetStartedSection from './Components/GetStartedSection/GetStartedSection'
 const fetchPromise = async() =>{
     const res = await fetch('/data.json');
     return res.json();
 }
+
+
 function App() {
 const getPromise = fetchPromise()
 const [count,setCount] =useState(0)
@@ -25,6 +28,7 @@ const [count,setCount] =useState(0)
 </div>}>
 <Tools setCount={setCount} getPromise={getPromise}></Tools>
 </Suspense>
+<GetStartedSection></GetStartedSection>
 <ToastContainer
 position='top-center'
 autoClose={2000}></ToastContainer>

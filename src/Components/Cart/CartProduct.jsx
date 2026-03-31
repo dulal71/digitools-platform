@@ -9,8 +9,8 @@ const CartProduct = ({selected,setSelected}) => {
     toast.success('Payment Successfully')
  }  
     return (
-        <div className=' bg-white shadow-lg border-2 border-gray-100 space-y-5 p-5'>
-     <p className='font-bold text-2xl'>Your Cart</p> 
+        <div className=' space-y-5 p-5'>
+
     {selected.map(product=> <ShowProduct key={product.id} product={product} setSelected={setSelected} selected={selected}></ShowProduct>)}  
        <div>
     <div className='flex justify-between'>
