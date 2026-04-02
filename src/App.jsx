@@ -16,9 +16,9 @@ const fetchPromise = async() =>{
     return res.json();
 }
 
-
-function App() {
 const getPromise = fetchPromise()
+function App() {
+
 
 const [count,setCount] =useState(0)
   return (
