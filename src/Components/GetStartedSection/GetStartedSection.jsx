@@ -4,8 +4,9 @@ const fetchPromise = async()=>{
     const res =await fetch('/GetStartedData.json')
 return res.json();
 }
+const getPromise = fetchPromise()
 const GetStartedSection = () => {
-    const getPromise = fetchPromise()
+    
     return (
         <div className='bg-base-200 mt-10 p-10'>
             <div className='max-w-7xl mx-auto'>
